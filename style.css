@@ -1,0 +1,33 @@
+/* Estilos generales */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+/* Estilos de los botones */
+button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Animación para imágenes y videos */
+.animated {
+    width: 300px;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Efecto de aparecer lentamente */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Oculta el mensaje hasta que se presione "Sí" */
+.hidden {
+    display: none;
+}
